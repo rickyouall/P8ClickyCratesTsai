@@ -72,7 +72,7 @@ public class GameManagerX : MonoBehaviour
     public void UpdateScore(int scoreToAdd)
     {
         score += scoreToAdd;
-        scoreText.text = "Score:_";
+        scoreText.text = "Score: " + score;
     }
 
     // Stop game, bring up game over text and restart button
